@@ -1,8 +1,9 @@
 
-var factorial = 1; var inputValue;
+ var inputValue;
 function factorialNo() { // Calculates the factorial of a number when an event specified in the 
     // addEventListener method occurs.
     inputValue = document.getElementById('input-no').value;
+   var factorial = 1;
     for (var i = 1; i <= inputValue; i++) {
         factorial = factorial * i;
     }
